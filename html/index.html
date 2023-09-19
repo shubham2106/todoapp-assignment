@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap">
+    <script src="../js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  </head>
+  
+  <body>
+    <div class="main">
+        <h2 class="header">#todo</h2>
+
+        <div class="todo-events">
+          <button class="taskbtn" value="Add" style="color: #333333" onclick="showAll()">All</button>
+          <button class="taskbtn" value="Add" style="color: #333333" onclick="showActive()">Active</button>
+          <button class="taskbtn" value="Add" style="color: #333333" onclick="showCompleted()">Completed</button>
+        </div>
+        <div class="addTodo">
+            <input class="addTodoItem" type="text" id="addTodoItem" name="addTodoItem" placeholder="add details" />
+            <button class="addTodobtn" value="Add" style="color: #FFFFFF" onclick="addTodo()"> Add </button>    
+        </div>
+        <div class="todolistcontainer" id="todoContainer">
+          <ul id="todoList"></ul>
+        </div>
+    </div>
+  </body>
+</html>

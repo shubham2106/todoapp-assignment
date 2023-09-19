@@ -1,0 +1,72 @@
+.remix-icon {
+    font-family: 'RemixIcon';
+}
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+  div.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  h2.header {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    text-align: center;
+  }
+input.addTodoItem {
+    border: 1px solid #BDBDBD;
+    border-radius: 12px;
+    height: 56px;
+    width: 476px;
+}
+button.addTodobtn {
+    margin-top: 18px;
+    height: 56px;
+    width: 109px;
+    border-radius: 12px;
+    background-color: #2F80ED;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+button.taskbtn {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-weight: 600;
+    background-color: white;
+    font-size: 14px;
+    padding-right: 200px;
+}
+.todo-events {
+    display: flex;
+    margin: 18px;
+    width: 608px;
+    height: 40px;
+    font-weight: 600;
+    border-bottom: 1px solid #BDBDBD;
+}
+div.addTodo {
+    display: inline;
+    width: 608px;
+    margin-left: 18px;
+}
+.completed {
+    text-decoration: line-through;
+    color: #828282;
+}
+
+.todoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.todoItem {
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}
