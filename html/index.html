@@ -9,15 +9,14 @@
   </head>
   
   <body>
+    <h2 class="header">#todo</h2>
     <div class="main">
-        <h2 class="header">#todo</h2>
-
-        <div class="todo-events">
+        <div class="todo-events" id="todo-events">
           <button class="taskbtn" value="Add" style="color: #333333" onclick="showAll()">All</button>
           <button class="taskbtn" value="Add" style="color: #333333" onclick="showActive()">Active</button>
           <button class="taskbtn" value="Add" style="color: #333333" onclick="showCompleted()">Completed</button>
         </div>
-        <div class="addTodo">
+        <div class="addTodo" id="addTodo">
             <input class="addTodoItem" type="text" id="addTodoItem" name="addTodoItem" placeholder="add details" />
             <button class="addTodobtn" value="Add" style="color: #FFFFFF" onclick="addTodo()"> Add </button>    
         </div>

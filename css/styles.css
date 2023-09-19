@@ -8,7 +8,7 @@
   div.main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
   h2.header {
     font-family: 'Raleway', sans-serif;
@@ -41,7 +41,6 @@ button.taskbtn {
 }
 .todo-events {
     display: flex;
-    margin: 18px;
     width: 608px;
     height: 40px;
     font-weight: 600;
@@ -60,13 +59,27 @@ div.addTodo {
 .todoList {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.todoItem {
+li {
     border-radius: 4px;
+    list-style: none;
 }
 
 .hidden {
     display: none;
+}
+
+.random {
+    display: inline;
+    justify-content: space-between;
+}
+
+.deleteAll {
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    width: 124px;
+    height: 40px;
 }
